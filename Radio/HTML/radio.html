@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <author id="author">Lorris COLINI</author>
+    <link rel="stylesheet" href="../CSS/radio.css">
+    <script src="../JS/radio.js" async></script>
+    <title>Radios FM</title>
+</head>
+<body>
+    <header>
+        <h1>Liste des radios</h1>
+    </header>
+    <div id="all">
+    <div id="cadre">
+        <img src="../IMG/Virgin.png" alt="Virgin Radio" title="Virgin Radio" onclick="selectStation(this)">
+        <img src="../IMG/Nrj.png" alt="NRJ" title="NRJ" onclick="selectStation(this)">
+        <img src="../IMG/France_inter.png" alt="France Inter" title="France Inter" onclick="selectStation(this)">
+        <img src="../IMG/Chérie_fm.png" alt="Chérie FM" title="Chérie FM" onclick="selectStation(this)">
+        <img src="../IMG/Oui_fm.png" alt="Oui FM" title="OUI FM" onclick="selectStation(this)">
+        <img src="../IMG/Classique.png" alt="Radio Classique" title="Radio Classique" onclick="selectStation(this)">
+        <img src="../IMG/RTL2.png" alt="RTL2" title="RTL2" onclick="selectStation(this)">
+        <img src="../IMG/Fun_radio.png" alt="Fun Radio" title="Fun Radio" onclick="selectStation(this)">
+        <img src="../IMG/Nostalgie.png" alt="Nostalgie" title="Nostalgie" onclick="selectStation(this)">
+        <img src="../IMG/Rire_et_chanson.png" alt="Rire et Chansons" title="Rire et Chansons" onclick="selectStation(this)">
+        <img src="../IMG/Evasion.png" alt="Evasion" title="Evasion" onclick="selectStation(this)">
+        <img src="../IMG/Voltage.png" alt="Voltage" title="Voltage" onclick="selectStation(this)">
+
+    </div>
+    <footer>
+        <div id="play" >
+            <audio id="lecteur" controls src="station"></audio>
+        </div>
+        <div id="nom">
+            <p id="affichage"></p>
+        </div>
+    </footer>
+    </div>  
+</body>
+</html>
